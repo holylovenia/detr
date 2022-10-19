@@ -2,6 +2,7 @@
 import torch.utils.data
 import torchvision
 
+from . import transforms
 from .coco import build as build_coco
 
 
